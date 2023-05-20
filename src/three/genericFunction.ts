@@ -45,3 +45,21 @@ const persianConverter = <T>(param: T) => {
 }
 
 const result5 = persianConverter(infoPersian)
+
+type Data = { num1: number }
+
+interface PersonX {
+
+    firstName: string;
+
+    lastName: string;
+
+}
+
+
+
+function fullName<T extends PersonX>(person: T): string {
+
+    return `${person.firstName} ${person.lastName}`;
+
+}
