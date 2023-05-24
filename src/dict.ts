@@ -11,3 +11,4 @@ const maleUsers: {
     game: ['lol', 'XD'],
     sex: 'male'
 }
+console.log('hello')
